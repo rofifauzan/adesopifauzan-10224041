@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung Campus</title>
+  <style>
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #263238;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+      padding: 0;
+    }
+    nav a {
+      color: #003366;
+    }
+    main section {
+      margin: 24px 0;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+    }
+    input, textarea {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 600px;
+      padding: 8px;
+    }
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>STT Cipasung</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="c:\Users\First USER\Documents\kam.jpeg" alt="Illustration representing STT Cipasung">
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="contact-name">Name</label>
+        <input id="contact-name" name="name" type="text" autocomplete="name" required>
+        <label for="contact-email">Email</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2026</p>
+  </footer>
+</body>
+</html>
